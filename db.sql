@@ -1,0 +1,10 @@
+CREATE DATABASE db;
+USE db;
+CREATE TABLE users(
+	id INT(11) NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+    pswd VARCHAR(255) NOT NULL,
+    grade INT(2) NOT NULL,
+    prep INT(3) NOT NULL,
+    PRIMARY KEY (id)
+);
